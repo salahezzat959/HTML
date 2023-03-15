@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --maincolor: rgb(66, 219, 138);
+}
+
+h2 {
+    color: var(--maincolor);
+    text-align: center;
+}
+
+
+.creat {
+    border: 5px solid var(--maincolor);
+    width: 50%;
+    margin: 0 auto;
+    background-color: #EEE;
+    padding: 20px;
+}
+
+table {
+    margin-top: 0;
+}
+
+p {
+    background-color: var(--maincolor);
+    height: 30px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+tbody tr td:first-child {
+    background-color: var(--maincolor);
+    padding: 5px;
+    width: 200px;
+    margin-top: 8px;
+    text-align: right;
+}

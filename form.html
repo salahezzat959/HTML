@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="icon" href="/img/ITI_logo.png">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="creat">
+        <table cellspacing="8px" cellpadding="5px">
+            <form action="">
+                <h2>Register- Creat Account</h2>
+                <p> <b>Fild marked with * ar complulary field</b></p>
+                <tbody>
+                    <tr>
+                        <td><label for="">Your Name</label></td>
+                        <td><input type="text" name="name" required placeholder="Please Enter Your Name"></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td><label for="">E-mail ID</label></td>
+                        <td><input type="email" name="email" required></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td rowspan="2"><label for="">Your Phone</label></td>
+                        <td> country code - city code - phone </td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #EEe; text-align: left;">
+                            <input type="text" size="5px" name="phone">
+                            <input size="5px" type="text" name="phone">
+                            <input size="5px" name=" phone" type="text">
+                        </td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td> <label for="">Moble Phone</label></td>
+                        <td> <input type="text" name="moble"></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td> <label for="">Your Postal Adress</label></td>
+                        <br>
+                        <td> <textarea name="Adress" cols="30" rows="5"></textarea></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td> <label for="">Country</label></td>
+                        <td> <select name="country" id="">
+                                <option value="" selected disabled>---------------Selecet--------------</option>
+                                <option value="Egypt">Egypt</option>
+                                <option value="USA">USA</option>
+                                <option value="Uk">Uk</option>
+                                <option value="oman">Oman</option>
+                                <option value="japan">Japan</option>
+                            </select></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td> <label for="">Password</label></td>
+                        <td><input type="password"></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td><label for="">Re-Enter Password</label></td>
+                        <td><input type="password"></td>
+                    </tr>
+
+                    <br>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td><input type="checkbox">
+                            <label for="">I accept the <a href="">Terms of Use</a></label>
+                        </td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td></td>
+                        <td> <input type="submit" value="Contune>>">
+                            <input type="reset" value="Reset">
+                        </td>
+                    </tr>
+                </tfoot>
+            </form>
+        </table>
+
+    </div>
+
+</body>
+
+</html>
